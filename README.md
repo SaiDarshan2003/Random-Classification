@@ -6,26 +6,16 @@ To write a python program to perform random classification.
 2. Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 ## Related Theoritical Concept:
 ```
-1.matplotlib.pyplot as plt-used to represent the given data set in a 
-graphical manner. 
-2.sklearn-used for statistical modelling and build machine learning models. 
-3.datasets-used to introduce many small datasets and fetch large data sets. 
-4.make_blobs-used to generate blobs of points with a gaussian distribution. 
+Random classifier: It creates a set of decision trees from randomly selected subset of training set. It then aggregates the votes from different decision trees to decide the final class of the test object. Random Forest is suitable for situations when we have a large dataset, and interpretability is not a major concern.
+
+Purpose of Random classifier: One of the most important features of the Random Forest Algorithm is that it can handle the data set containing continuous variables as in the case of regression and categorical variables as in the case of classification.
 ```
 ## Algorithm
 ```
-Step 1: 
-Import necessary libraries from packages. 
-Step 2: 
-Assign x,y values from the given dataset by sklearn. 
-Step 3: 
-Plot the x and y values in the chart using mathplotlib.pyplot 
-Step 4: 
-Label the values of x and y axis. 
-Step 5: 
-Add title to the graph . 
-Step 6: 
-Save the file and execute the program.
+1.In Random forest n number of random records are taken from the data set having k number of records.
+2.Individual decision trees are constructed for each sample.
+3.Each decision tree will generate an output.
+4.Final output is considered based on Majority Voting or Averaging for Classification and regression respectively.
 ```
 ## Program:
 ```
