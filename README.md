@@ -33,8 +33,8 @@ Save the file and execute the program.
 ```
 /*
 Program to implement random classification.
-Developed by   :Sham Rathan.S
-RegisterNumber : 212221230093
+Developed by   :Sai Darshan.G
+RegisterNumber : 212221240047
 */
 # 01 RANDOM CLASSIFICATION- 
 import matplotlib.pyplot as plt
@@ -50,7 +50,7 @@ plt.title('Random Classification Data with 2 classes')
 ```
 
 ## Output:
-![Ex no 1.Random Classifier plot](01.png)
+![Ex no 1.Random Classifier plot](1.png)
 
 
 ## Result:
